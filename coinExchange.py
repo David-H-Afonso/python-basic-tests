@@ -6,7 +6,7 @@ def exchange(coin):
 dollars = input("Write the amount of dollars you want to exchange: ")
 dollars = float(dollars)
 coin = input("""
-Choose the coin that you want to exchange the value by typing the number
+Choose the coin that you want to exchange the value by typing the number. By default this value is "Euros"
 1 - Euros
 2 - Pesos argentinos
 3 - Pesos colombianos
