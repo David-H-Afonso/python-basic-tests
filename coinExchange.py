@@ -1,0 +1,1 @@
+dollars = input("Write the amount of dollars you want to exchange: ")
