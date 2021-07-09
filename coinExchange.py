@@ -32,4 +32,4 @@ else:
 # Showing the data to the user
 coin_value = exchange(coin_value)
 coin_value = round(coin_value,2)
-print("With "+ str(dollars) +"$ you have "+ str(coin_value) +" on the other coin")
+print(f"With {dollars}$ you have {coin_value} on the other coin")
