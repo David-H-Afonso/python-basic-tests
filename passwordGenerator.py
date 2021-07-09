@@ -1,7 +1,7 @@
 import random
 
 # Function - Create an array with all the mayus, minus, nums and chars in the keyboard, and join them into an array
-def passwordGenerator():
+def passwordGenerator(length):
     MAYUS = [
         "A",
         "B",
@@ -92,12 +92,13 @@ def passwordGenerator():
 
     secret = []
 
-    for i in range(15):
+    for i in range(length):
         character_random = random.choice(characters)
         secret.append(character_random)
 
     secret = "".join(secret)
     return secret
 
-password = passwordGenerator()
+pLength= input("Type the length that you want for you password: ")
+password = passwordGenerator(int(pLength))
 print(f"You password is {password}")
