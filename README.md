@@ -22,7 +22,7 @@
 <h2>Try it! 🧾</h2>
 
 [![License](https://img.shields.io/github/license/David-H-Afonso/vuedex?color=blue)](./LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/David-H-Afonso/vuedex)
+![GitHub last commit](https://img.shields.io/github/last-commit/David-H-Afonso/python-basic-tests)
 
 <p> Download or make a pull request from this repository. Use the command "py filename.py" and test it! </p>
 
